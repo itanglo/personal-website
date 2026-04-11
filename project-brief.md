@@ -21,3 +21,9 @@ This is a blog I keep coming back to when I need some inspiration. It hasn't cha
 ![A screenshot of Chris Glass' website. The style seems quite minimalist, but there is a lot of content. At the time of writing the main image is of a cat peering round a piece of furniture.](https://github.com/user-attachments/assets/67f61400-213a-4c49-963c-7774aba91803 "A screenshot of Chris Glass' website. The style seems quite minimalist, but there is a lot of content. At the time of writing the main image is of a cat peering round a piece of furniture.")
 
 I first became aware of Chris' work because of his excellent [Creative Mornings talk](https://creativemornings.com/talks/chris-glass), which I found inspiring and hilarious in equal measure. I like this website because the style is simple, but there's a bunch of content. It feels like the website of a creative forager and collector.
+
+### [Tania Rascia](https://www.taniarascia.com)
+
+![A screenshot of Tania Rascia's website. The style is simple and playful. There is an amusing image of a goat munching on a power cord.](https://github.com/user-attachments/assets/a58c2cfa-f511-4c92-9ed6-fa3192fa96dc "A screenshot of Tania Rascia's website. The style is simple and playful. There is an amusing image of a goat munching on a power cord.")
+
+I like the style of Tania's website and I enjoy the nod to persistance methods of the past with the inclusion of the floppy disk 💾. I've no idea what the goat munching on the power cord is about though 😅
