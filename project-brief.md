@@ -27,3 +27,9 @@ I first became aware of Chris' work because of his excellent [Creative Mornings 
 ![A screenshot of Tania Rascia's website. The style is simple and playful. There is an amusing image of a goat munching on a power cord.](https://github.com/user-attachments/assets/a58c2cfa-f511-4c92-9ed6-fa3192fa96dc "A screenshot of Tania Rascia's website. The style is simple and playful. There is an amusing image of a goat munching on a power cord.")
 
 I like the style of Tania's website and I enjoy the nod to persistance methods of the past with the inclusion of the floppy disk 💾. I've no idea what the goat munching on the power cord is about though 😅
+
+### [Cassidy Williams](https://cassidoo.co)
+
+![A screenshot of Cassidy Williams' website. There is a picture of Cassidy holding a keyboard aloft. The style is simple with splashes of colour to underline text.](https://github.com/user-attachments/assets/8e8e7954-2d3b-43c3-aa3c-a4ad68d66c2d "A screenshot of Cassidy Williams' website. There is a picture of Cassidy holding a keyboard aloft. The style is simple with splashes of colour to underline text.")
+
+Following the trend of the kind of style I like, this website is also quite minimalstic, but I like the monospaced font and  the use of vibrant alternating colours to highlight the links on the page.
