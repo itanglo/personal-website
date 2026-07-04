@@ -35,7 +35,7 @@ body {
   }
 }
 
-.layout {
+main {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
@@ -43,7 +43,7 @@ body {
 }
 
 @media (max-width: 800px) { /* --bp-sm */
-  .layout {
+  main {
     flex-direction: column;
     align-items: center;
     padding: 2rem 6%;
@@ -51,7 +51,7 @@ body {
   }
 }
 
-.main {
+.intro {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -107,8 +107,13 @@ body {
   height: 303px;
 }
 
-.avatar-bg-orange {
+.avatar::before,
+.avatar::after {
+  content: '';
   position: absolute;
+}
+
+.avatar::before {
   top: 0;
   left: 0;
   width: 199px;
@@ -116,8 +121,7 @@ body {
   background: #ffb175;
 }
 
-.avatar-bg-teal {
-  position: absolute;
+.avatar::after {
   top: 77px;
   left: 28px;
   width: 208px;
@@ -132,11 +136,12 @@ body {
   width: 209px;
   height: 272px;
   object-fit: cover;
+  z-index: 1;
 }
 
 @media (max-width: 1180px) {
-  .avatar        { width: 142px; height: 182px; }
-  .avatar-bg-orange { width: 120px; height: 146px; }
-  .avatar-bg-teal   { top: 46px; left: 17px; width: 125px; height: 136px; }
-  .avatar-photo     { top: 7px;  left: 8px;  width: 126px; height: 163px; }
+  .avatar         { width: 142px; height: 182px; }
+  .avatar::before { width: 120px; height: 146px; }
+  .avatar::after  { top: 46px; left: 17px; width: 125px; height: 136px; }
+  .avatar-photo   { top: 7px;  left: 8px;  width: 126px; height: 163px; }
 }
