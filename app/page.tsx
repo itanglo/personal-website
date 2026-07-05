@@ -16,13 +16,13 @@ export default function HomePage() {
           <p>Living in Blighty 🇬🇧, hailing from the shores of Sicily&nbsp;🇮🇹</p>
           <p className="pl-6 max-sm:pl-0">
             Part of Team Web @ Fin&nbsp;
-            <svg className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]">
+            <svg aria-hidden="true" className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]">
               <use href="#logo-fin" />
             </svg>
             {' '}
             <span className="whitespace-nowrap">
               (fka Intercom&nbsp;
-              <svg className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]">
+              <svg aria-hidden="true" className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]">
                 <use href="#logo-intercom" />
               </svg>
               )
