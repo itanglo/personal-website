@@ -3,21 +3,19 @@ import Nav from '@/components/Nav'
 import Avatar from '@/components/Avatar'
 
 export const metadata: Metadata = {
-  title: 'About — Paolo Di Pasquale',
+  title: 'About',
 }
-
-const NAV_LINKS = [
-  { label: 'Home', href: '/' },
-  { label: 'Posts', href: '/posts' },
-  { label: 'About', href: '/about' },
-]
 
 export default function AboutPage() {
   return (
     <main className="flow-root max-w-[60ch] pt-[8rem] px-[6%] pb-12 max-sm:pt-8 max-sm:pb-8">
-      <Nav links={NAV_LINKS} />
+      <Nav />
       <h1 className="text-[1.953125rem] leading-[1.2]">About</h1>
-      <Avatar src="/me-code-complete.jpg" alt="Paolo Di Pasquale" float />
+      <Avatar
+        src="/me-code-complete.jpg"
+        alt="Me, Paolo Di Pasquale, holding a copy of Code Complete 2 and looking quite chuffed with myself"
+        float
+      />
       <div className="text-[1.25rem] leading-[1.7]">
         <p>
           My name is Paolo Di Pasquale and this is my personal website. It&apos;s for writing and

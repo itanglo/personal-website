@@ -1,10 +1,6 @@
 import Nav from '@/components/Nav'
 import Avatar from '@/components/Avatar'
-
-const NAV_LINKS = [
-  { label: 'Posts', href: '/posts' },
-  { label: 'About', href: '/about' },
-]
+import { FinLogo, IntercomLogo } from '@/components/LogoSvgs'
 
 export default function HomePage() {
   return (
@@ -16,20 +12,16 @@ export default function HomePage() {
           <p>Living in Blighty 🇬🇧, hailing from the shores of Sicily&nbsp;🇮🇹</p>
           <p className="pl-6 max-sm:pl-0">
             Part of Team Web @ Fin&nbsp;
-            <svg aria-hidden="true" className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]">
-              <use href="#logo-fin" />
-            </svg>
+            <FinLogo className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]" />
             {' '}
             <span className="whitespace-nowrap">
               (fka Intercom&nbsp;
-              <svg aria-hidden="true" className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]">
-                <use href="#logo-intercom" />
-              </svg>
+              <IntercomLogo className="inline-block align-middle w-[0.9em] h-[0.9em] relative top-[-0.08em]" />
               )
             </span>
           </p>
         </div>
-        <Nav links={NAV_LINKS} />
+        <Nav />
       </div>
       <div className="flex-1 flex justify-center items-start">
         <Avatar src="/me.jpg" alt="Paolo Di Pasquale" />
