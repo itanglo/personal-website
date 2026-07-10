@@ -1,29 +1,36 @@
-import type { Metadata } from 'next'
-import { Atkinson_Hyperlegible } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import { Atkinson_Hyperlegible } from "next/font/google";
+import "./globals.css";
+import Nav from "@/components/Nav";
 
 const atkinson = Atkinson_Hyperlegible({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-atkinson',
-})
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-atkinson",
+});
 
 export const metadata: Metadata = {
   title: {
-    default: 'Paolo Di Pasquale',
-    template: '%s — Paolo Di Pasquale',
+    default: "Paolo Di Pasquale",
+    template: "%s — Paolo Di Pasquale",
   },
-  description: 'The personal website of Paolo Di Pasquale, an AI-powered web engineer.',
-  icons: { icon: '/favicon.ico' },
-}
+  description:
+    "The personal website of Paolo Di Pasquale, an AI-powered web engineer.",
+  icons: { icon: "/favicon.ico" },
+};
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={atkinson.variable}>
-      <body className="bg-white font-sans text-[1.25rem] leading-[1.7] text-black min-h-[100dvh] flex justify-center xl:text-[2rem]">
+      <body className="flex flex-col py-8 px-8 h-dvh text-xl">
+        <Nav />
         {children}
       </body>
     </html>
-  )
+  );
 }
